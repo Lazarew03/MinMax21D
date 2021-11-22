@@ -62,7 +62,7 @@ void init()
 	
 	for (int i = 0; i < length; i++)
 	{
-		mass[i] = rand();
+		mass[i] = -100+rand();
 	}
 }
 
